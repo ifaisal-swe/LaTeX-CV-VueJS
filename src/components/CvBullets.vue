@@ -22,6 +22,8 @@ defineProps<{
 .cv-bullets {
   margin: 0.15rem 0 0;
   padding-left: 1.3rem;
+  /* Set explicitly: CSS resets such as Tailwind's preflight remove list markers. */
+  list-style: disc outside;
 }
 .cv-bullets li {
   margin-bottom: 0.1rem;

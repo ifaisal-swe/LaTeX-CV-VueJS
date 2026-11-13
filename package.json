@@ -1,7 +1,11 @@
 {
   "name": "vue-latex-cv",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Vue 3 components for building LaTeX-style CVs and résumés.",
+  "author": {
+    "name": "Faisal AlMutairi",
+    "url": "https://www.npmjs.com/~faisal-swe"
+  },
   "type": "module",
   "keywords": [
     "vue",

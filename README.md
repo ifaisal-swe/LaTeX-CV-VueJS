@@ -1,5 +1,7 @@
 # vue-latex-cv
 
+[![npm](https://img.shields.io/npm/v/vue-latex-cv)](https://www.npmjs.com/package/vue-latex-cv)
+
 Vue 3 components for building clean, LaTeX-style CVs and résumés that **ATS parsers can read**
 and that export to PDF straight from the browser.
 
@@ -179,3 +181,10 @@ playground/     # dev app (pnpm dev)
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Author
+
+**Faisal AlMutairi**
+
+- npm: [@faisal-swe](https://www.npmjs.com/~faisal-swe)
+- GitHub: [@ifaisal-swe](https://github.com/ifaisal-swe)
