@@ -1,0 +1,72 @@
+{
+  "name": "vue-latex-cv",
+  "version": "0.0.0",
+  "description": "Vue 3 components for building LaTeX-style CVs and résumés.",
+  "type": "module",
+  "keywords": [
+    "vue",
+    "vue3",
+    "cv",
+    "resume",
+    "latex",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifaisal-swe/LaTeX-CV-VueJS.git"
+  },
+  "bugs": "https://github.com/ifaisal-swe/LaTeX-CV-VueJS/issues",
+  "homepage": "https://github.com/ifaisal-swe/LaTeX-CV-VueJS#readme",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-latex-cv.js",
+  "module": "./dist/vue-latex-cv.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vue-latex-cv.js"
+    },
+    "./style.css": "./dist/vue-latex-cv.css",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc -p tsconfig.build.json",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.app.json",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prepublishOnly": "pnpm run typecheck && pnpm run test:run && pnpm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.9.0",
+    "@vue/test-utils": "^2.5.1",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.14.0",
+    "eslint-plugin-vue": "^10.12.1",
+    "jiti": "^2.7.0",
+    "jsdom": "^31.0.1",
+    "prettier": "^3.10.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0",
+    "vue": "^3.5.45",
+    "vue-tsc": "^3.3.14"
+  }
+}
