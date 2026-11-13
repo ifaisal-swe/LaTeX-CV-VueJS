@@ -186,5 +186,5 @@ Contributions are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 **Faisal AlMutairi**
 
-- npm: [@faisal-swe](https://www.npmjs.com/~faisal-swe)
+- npm: [@ifaisal-swe](https://www.npmjs.com/~ifaisal-swe)
 - GitHub: [@ifaisal-swe](https://github.com/ifaisal-swe)
